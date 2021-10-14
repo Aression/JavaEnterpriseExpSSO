@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-App8081Application<app8081>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "exp.a8081.app8081.App8081Application",
+            "projectName": "app8081",
+            "args": ""
+        }
+    ]
+}
