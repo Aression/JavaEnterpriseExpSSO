@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"> <!-- 未导入nekohtml依赖且修改mode时，此处需闭合，否则会报错 -->
+    <title>Thymealeaf Page</title>
+</head>
+<body>
+    <div align="center">
+        <h1>User Registration</h1>
+        <form action="#" th:action="@{/register}" method="post" th:object="${user}">
+    
+            <label>Name:</label>
+            <input type="text" th:field="*{username}" /><br/>
+    
+            <label>Password:</label>
+            <input type="text" th:field="*{password}" /><br/>
+    
+            <button type="submit">Register</button>    
+        </form>
+    </div>
+</body>
+</html>

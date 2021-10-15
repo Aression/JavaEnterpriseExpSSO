@@ -6,11 +6,13 @@
 </head>
 <body>
     <h1>Hello Thymealeaf!</h1>
-    <h2 th:text="${name}">testName</h2>
-    <form th:action="@{/foo}" th:object="${someBean}" method="post">
-        <input type="text" id="datePlanted" name="datePlanted" />
-        <button type="submit">Add</button>
-     </form>
-    <div>The locale country is: <span th:text="${#locale.country}">US</span></div>
+    <div align="center">
+        <a href="/register">Click here to register</a>
+        <table border="1">
+            <tr th:each="item:${bank}">
+                <td th:text="'吾名曰:'+${item}"></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
