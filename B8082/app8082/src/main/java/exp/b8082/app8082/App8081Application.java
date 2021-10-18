@@ -1,6 +1,6 @@
-package exp.a8081.app8081;
+package exp.b8082.app8082;
 
-import exp.a8081.app8081.intercepter.*;
+import exp.b8082.app8082.intercepter.*;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,7 +17,7 @@ public class App8081Application extends WebMvcConfigurerAdapter{
 
 	@Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(sessionintercepter()).addPathPatterns("/sysA/*");
+        registry.addInterceptor(sessionintercepter()).addPathPatterns("/sysB/*");
     }
 	@Bean
     public Sessionintercepter sessionintercepter(){

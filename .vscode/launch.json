@@ -9,6 +9,26 @@
             "mainClass": "exp.a8081.app8081.App8081Application",
             "projectName": "app8081",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AppServerApplication<app_server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "exp.server.app_server.AppServerApplication",
+            "projectName": "app_server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-App8081Application<app8082>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "exp.b8082.app8082.App8081Application",
+            "projectName": "app8082",
+            "args": ""
         }
     ]
 }

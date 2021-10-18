@@ -30,6 +30,7 @@ public class demoController {
     }
     @PostMapping("/register")
     public String submitForm(@ModelAttribute("user") User user){
+        // code login variation here
         System.out.println(user);
         return "registerSuccess";
     }

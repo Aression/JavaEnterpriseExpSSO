@@ -1,6 +1,7 @@
 package exp.a8081.app8081.domain;
 
 public class User {
+    // attention: we
     public String username;
     public String password;
 

@@ -1,0 +1,12 @@
+# 设置端⼝为8084
+server:
+  port: 8084
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: exp1 # 数据库名称为exp1
+      username: root
+      password: "123456" #注意这⾥要⽤引号把密码括起来
+      host: 127.0.0.1
+      port: 27017
